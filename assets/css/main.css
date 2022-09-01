@@ -265,7 +265,7 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 		 adobe-dc-view {
-			 style="width: 100%; box-shadow: 1px 1px 10px 1px #dadada; 
+			 style="width: 75%; height:75%; box-shadow: 1px 1px 4px 1px #dadada; 
 		 }
 
 	hr {
@@ -3292,7 +3292,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 2rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3317,7 +3317,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 60vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3460,7 +3460,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				min-height: 60vh;
 			}
 
 				#intro p br {
@@ -3477,7 +3477,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 40vh;
 			}
 
 				#intro h1 {
@@ -3523,7 +3523,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		height: 20rem;
-		padding-bottom: 8rem;
+		padding-bottom: 6rem;
 		position: relative;
 		text-align: center;
 		z-index: 2;
