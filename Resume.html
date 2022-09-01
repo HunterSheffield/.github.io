@@ -49,19 +49,19 @@
  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body style="margin: 0px">
-						<div id="adobe-dc-view" style="width: 800px;"></div>
+						<div id="adobe-dc-view" style="width: 100%;">
 
 <script src="https://documentcloud.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "7e0ef3fe8a7c464d8141460e39cb7b8e", divId: "adobe-dc-view"});
+		var adobeDCView = new AdobeDC.View({clientId: "7c530460ddc942e1b6e5bf02d53e0c27", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://github.com/HunterSheffield/HuntersPortfolio/blob/main/docs/HSheffieldResume.pdf"}},
+			content:{location: {url: "https://www.huntersheffield.com/docs/HSheffieldResume.pdf"}},
 			metaData:{fileName: "HSheffieldResume.pdf"}
 		}, {embedMode: "IN_LINE"});
 	});
 </script>
-								
+		</div>						
 							</section>
 
 						<!-- Footer -->

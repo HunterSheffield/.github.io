@@ -19,7 +19,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
     /* Initialize the AdobeDC View object */
     var adobeDCView = new AdobeDC.View({
         /* Pass your registered client id */
-        clientId: "<7e0ef3fe8a7c464d8141460e39cb7b8e>",
+        clientId: "<7c530460ddc942e1b6e5bf02d53e0c27>",
         /* Pass the div id in which PDF should be rendered */
         divId: "adobe-dc-view",
     });
@@ -30,7 +30,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://github.com/HunterSheffield/HuntersPortfolio/blob/main/docs/HSheffieldResume.pdf",
+                url: "www.huntersheffield.com/docs/HSheffieldResume.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 header: [

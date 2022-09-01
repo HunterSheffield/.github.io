@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/desert.jpg");
+		background-image: url("../../images/desert.jpg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -265,7 +265,7 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 		 adobe-dc-view {
-			 style="width: 800px; box-shadow: 1px 1px 10px 1px #dadada;
+			 style="width: 100%; box-shadow: 1px 1px 10px 1px #dadada; 
 		 }
 
 	hr {
