@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, resume, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -264,9 +264,9 @@ input, select, textarea {
 			padding: 1rem 1.5rem;
 			overflow-x: auto;
 		}
-		 adobe-dc-view {
-			 style="width: 75%; height:75%; box-shadow: 1px 1px 4px 1px #dadada; 
-		 }
+	/*	 adobe-dc-view {
+			 style="width: 100%; height:100%; box-shadow: 1px 1px 4px 1px #dadada; 
+		 */
 
 	hr {
 		border: 0;
@@ -2666,7 +2666,7 @@ input, select, textarea {
 		}
 
 	a.image {
-		overflow: hidden;
+		overflow: auto	;
 	}
 
 		a.image img {
@@ -3776,7 +3776,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+	
 			margin: 0;
 		}
 
@@ -3872,7 +3872,9 @@ input, select, textarea {
 				width: 50%;
 			}
 
-			#main > .posts > article {
+			#main > .posts > 
+			
+			{
 				border-color: #ffffff;			
 				border-left-width: 2px;
 				border-style: solid ;
@@ -4495,6 +4497,121 @@ input, select, textarea {
 				}
 
 		}
+
+
+		#resume {
+		color: #000000;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		background-color: #f5f5f5;
+		opacity: 1;
+		color: #000000;
+		
+		cursor: default;
+		position: relative;
+		margin: 0 auto;
+		width: calc(100% - 4rem);
+		max-width: 72rem;
+		z-index: 2;
+
+		#resume input, #resume select, #resume textarea {
+			color: #000000;
+		}
+
+		#resume a {
+			color: #000000;
+			border-bottom-color: rgba(113, 121, 129, 0.5);
+		}
+
+			#resume a:hover {
+				border-bottom-color: transparent;
+				color: #18bfef !important;
+			}
+
+		#resume strong, #resume b {
+			color: #000000;
+		}
+
+		#resume h1, #resume h2, #resume h3, #resume h4, #resume h5, #resume h6 {
+			color: #000000;
+		}
+
+		#resume blockquote {
+			border-left-color: #e2e2e2;
+		}
+
+		#resume code {
+			background: rgba(220, 220, 220, 0.5);
+			border-color: #e2e2e2;
+		}
+
+		#resume hr {
+			border-bottom-color: #e2e2e2;
+		}
+
+		#resume .box {
+			border-color: #e2e2e2;
+		}
+
+		#resume input[type="submit"],
+		#resume input[type="reset"],
+		#resume input[type="button"],
+		#resume button,
+		#resume .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px #717981;
+			color: #717981 !important;
+		}
+
+			#resume input[type="submit"]:hover,
+			#resume input[type="reset"]:hover,
+			#resume input[type="button"]:hover,
+			#resume button:hover,
+			#resume .button:hover {
+				box-shadow: inset 0 0 0 2px #18bfef;
+				color: #18bfef !important;
+			}
+
+			#resume input[type="submit"].primary,
+			#resume input[type="reset"].primary,
+			#resume input[type="button"].primary,
+			#resume button.primary,
+			#resume .button.primary {
+				background-color: #717981;
+				box-shadow: none;
+				color: #f5f5f5 !important;
+			}
+
+				#resume input[type="submit"].primary:hover,
+				#resume input[type="reset"].primary:hover,
+				#resume input[type="button"].primary:hover,
+				#resume button.primary:hover,
+				#resume .button.primary:hover {
+					background-color: #18bfef;
+				}
+
+		#resume label {
+			color: #717981;
+		}
+
+		#resume input[type="text"],
+		#resume input[type="password"],
+		#resume input[type="email"],
+		#resume select,
+		#resume textarea {
+			border-color: #e2e2e2;
+		}
+
+			#resume input[type="text"]:focus,
+			#resume input[type="password"]:focus,
+			#resume input[type="email"]:focus,
+			#resume select:focus,
+			#resume textarea:focus {
+				border-color: #18bfef;
+			}
+
 
 /* Nav Panel */
 
