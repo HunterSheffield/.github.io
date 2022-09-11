@@ -2626,6 +2626,12 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+				.image.centered {
+			display: inline-block;
+			
+			width: auto;
+			margin-bottom: 20px;
+		}
 
 			.image.fit:first-child {
 				margin-top: 0;
