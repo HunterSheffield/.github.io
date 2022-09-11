@@ -2682,6 +2682,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.2s ease-out;
 			-ms-transition: -ms-transform 0.2s ease-out;
 			transition: transform 0.2s ease-out;
+
+
 		}
 
 		a.image:hover img {
